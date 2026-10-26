@@ -656,3 +656,82 @@ body {
 .restaurant-wide {
     grid-column: 2 / 4;
 }
+
+.sets-menu {
+    padding: 50px 45px 70px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.sets-label {
+    color: #D14343;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sets-menu h2 {
+    margin-top: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 42px;
+}
+
+.sets-description {
+    margin-top: 8px;
+    color: #64748B;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+}
+
+.sets-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 38px;
+    text-align: left;
+}
+
+.sets-heading {
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0F766E;
+    width: fit-content;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px;
+}
+
+.set-item {
+    margin-bottom: 22px;
+    font-family: 'Karla', sans-serif;
+}
+
+.set-item-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.set-dots {
+    flex: 1;
+    border-bottom: 2px dotted #DCE3E9;
+}
+
+.set-price {
+    color: #C62828;
+    white-space: nowrap;
+}
+
+.set-item p {
+    margin-top: 6px;
+    color: #64748B;
+    font-size: 15px;
+}
+
+.new-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    background-color: #0F766E;
+    color: #FFFFFF;
+    font-size: 11px;
+}

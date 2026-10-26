@@ -5,7 +5,7 @@
 
 body {
     width: 960px;
-    align-items: center;
+    margin: 0 auto;
 }
 
 .header{
@@ -41,6 +41,8 @@ body {
     padding-bottom: 16px;
     border-bottom: 2px solid rgba(195, 195, 195, 0.516);
     position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .navlinks {
@@ -435,7 +437,7 @@ body {
 .menu-description {
     margin-top: 8px;
     color: #64748B;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 .menu-list {
@@ -543,7 +545,7 @@ body {
 
 .reviews h2 {
     margin: 12px 0 40px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', sans-serif;
     font-size: 42px;
 }
 
@@ -733,5 +735,115 @@ body {
     border-radius: 12px;
     background-color: #0F766E;
     color: #FFFFFF;
+    font-size: 11px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 32px;
+    background-color: #C51F24;
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+}
+
+.newsletter h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 23px;
+}
+
+.newsletter p {
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.newsletter-form {
+    display: flex;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.newsletter-form input {
+    width: 240px;
+    border: 0;
+    padding: 8px 12px;
+}
+
+.newsletter-form button {
+    border: 0;
+    border-radius: 7px;
+    padding: 0 16px;
+    background-color: #0F766E;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.footer {
+    padding: 40px 32px 18px;
+    background-color: #18181B;
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 35px;
+    padding-bottom: 32px;
+}
+
+.footer-about h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+.footer-about p {
+    max-width: 290px;
+    margin-top: 12px;
+    color: #94A3B8;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.footer h3 {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.footer-columns > div > a,
+.footer-columns > div > p {
+    display: block;
+    margin-top: 8px;
+    color: #94A3B8;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.social-links a {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #303034;
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid #45454A;
+    color: #94A3B8;
     font-size: 11px;
 }

@@ -3,44 +3,44 @@
     margin: 0;
 }
 
-.contact {
-    font-family: 'Karla', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    color: #FFF;
-}
-
-.work-hours {
-    font-family: 'Karla', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #FFF;
+.header{
+    position: sticky;
 }
 
 .contact {
     display: flex;
     background-color: #18181B;
-    justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: space-between;
+    .work-hours {
+        color: #CBD5E1;
+    }
+    .number-contact {
+        color: #CBD5E1;
+    }
+
 }
 
 .navbar {
     display: flex;
     background-color: #FFFFFF;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 370px;
+    justify-content: space-between;
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(195, 195, 195, 0.516);
+    position: sticky;
 }
 
 .navlinks {
         display: flex;
-        gap: 20px;
+        gap: 25px;
         a  {
             text-decoration: none;
             font-family: 'Karla', sans-serif;
@@ -51,7 +51,7 @@
     }
 
 .navbutton {
-    margin: 10px;
+    margin: 5px;
     background-color: #B91C1C;
     cursor: pointer;
     padding-top: 10px;
@@ -72,6 +72,16 @@
 
 .navlogo {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
+    display: flex;
+    span {
+        color: #B91C1C;
+    }
 }
+
+body {
+    width: 960px;
+    
+}
+

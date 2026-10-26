@@ -1,1 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+.contact {
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.work-hours {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.contact {
+    display: flex;
+    background-color: #18181B;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
